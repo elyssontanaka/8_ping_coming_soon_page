@@ -1,0 +1,87 @@
+/* VARIABLES */
+:root {
+    /* COLORS */
+    --primary-blue: hsl(223, 87%, 63%);
+    --secondary-pale-blue: hsl(223, 100%, 88%);
+    --secondary--light-red: hwb(354 32% 0%);
+    --neutral-gray: Gray: hsl(0, 0%, 59%);
+    --neutral-very-dark-blue: hsl(209, 33%, 12%);
+    /* TYPOGRAPHY */
+    --custom-font-1: "Libre Franklin", sans-serif;
+    /* font-weights: 300, 600, 700 */
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  */
+
+html {
+    font-size: 20px;
+    font-family: var(--custom-font-1);
+}
+
+body {
+    text-align: center;
+    margin: auto;
+}
+
+figure {
+    max-width: 85%;
+    text-align: center;
+    margin: auto;
+}
+
+.logo {
+    height: .8rem;
+}
+
+.illustration {
+    width: 100%;
+}
+
+.title {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.sub-title {
+    font-size: .6rem;
+    font-weight: 300;
+}
+
+#email {
+    width: 75%;
+    padding: .3rem 1.5rem;
+    border-radius: 1.1rem;
+    border-width: 1px;
+    line-height: 1rem;
+    border-color: var(--secondary-pale-blue);
+    font-family: var(--custom-font-1);
+}
+
+#email:focus {
+    padding: .3rem 1.5rem;
+    border-color: var(--secondary-pale-blue);
+    font-family: var(--custom-font-1);
+}
+
+::placeholder {
+    color: var(--secondary-pale-blue);
+}
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
