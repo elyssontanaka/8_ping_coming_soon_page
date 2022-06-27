@@ -4,7 +4,7 @@
     --primary-blue: hsl(223, 87%, 63%);
     --secondary-pale-blue: hsl(223, 100%, 88%);
     --secondary--light-red: hwb(354 32% 0%);
-    --neutral-gray: Gray: hsl(0, 0%, 59%);
+    --neutral-gray: hsl(0, 0%, 59%);
     --neutral-very-dark-blue: hsl(209, 33%, 12%);
     /* TYPOGRAPHY */
     --custom-font-1: "Libre Franklin", sans-serif;
@@ -18,8 +18,7 @@
     box-sizing: border-box;
 }
 
-/*  */
-
+/* BASE */
 html {
     font-size: 20px;
     font-family: var(--custom-font-1);
@@ -31,51 +30,122 @@ body {
 }
 
 figure {
-    max-width: 85%;
+    max-width: 500px;
     text-align: center;
     margin: auto;
 }
 
 .logo {
     height: .8rem;
+    margin: 4rem 0 2rem 0;
 }
 
+.info-container {
+    height: 12.5rem;
+    max-width: 25.5rem;
+    margin: auto;
+}
+
+.img-container {
+    max-width: 25.5rem;
+}
 .illustration {
-    width: 100%;
+    width: 86%;
 }
 
 .title {
     font-size: 1.1rem;
     font-weight: 300;
+    color: var(--neutral-gray);
+    margin-bottom: 1rem;
+}
+
+.title strong {
+    color: black;
 }
 
 .sub-title {
     font-size: .6rem;
     font-weight: 300;
+    margin-bottom: 1.5rem;
 }
 
 #email {
     width: 75%;
-    padding: .3rem 1.5rem;
+    padding: .47rem 1.5rem;
     border-radius: 1.1rem;
     border-width: 1px;
     line-height: 1rem;
     border-color: var(--secondary-pale-blue);
     font-family: var(--custom-font-1);
-}
-
-#email:focus {
-    padding: .3rem 1.5rem;
-    border-color: var(--secondary-pale-blue);
-    font-family: var(--custom-font-1);
+    margin-bottom: .5rem;
 }
 
 ::placeholder {
     color: var(--secondary-pale-blue);
 }
 
+.submit-btn {
+    width: 75%;
+    padding: .45rem 1.5rem;
+    border-radius: 1.1rem;
+    border-width: 1px;
+    background-color: var(--primary-blue);
+    color: white;
+    line-height: 1rem;
+    border-color: transparent;
+    font-family: var(--custom-font-1);
+    box-shadow: 0 2px 6px 0 rgb(161, 176, 232);
+    transition: all .3s;
+}
 
+.submit-btn:hover {
+    background: var(--secondary-pale-blue);
+}
 
+.sm-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 120px;
+    margin: 5.8rem auto 1.5rem auto;
+}
+
+.rounded-btn {
+    height: 1.6rem;
+    width: 1.6rem;
+    border-radius: 50%;
+    border: 1px solid rgb(217, 216, 216);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .3s;
+    color: var(--primary-blue);
+}
+
+.rounded-btn:hover {
+    background-color: var(--primary-blue);
+}
+.rounded-btn:hover .fa{
+    color: white;
+}
+
+.fa {
+    font-size: 14px;
+    color: var(--primary-blue);
+    transition: all .3s;
+}
+
+/* .fa:hover {
+    color: white;
+} */
+
+.copyright {
+    font-size: .5rem;
+    color: var(--neutral-gray);
+    padding-bottom: .5rem;
+}
 
 .attribution {
     font-size: 11px;
