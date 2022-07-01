@@ -94,10 +94,6 @@ figure {
     margin: .25rem 0 .7rem 0;
 }
 
-.input-container {
-    border: 1px solid black;
-}
-
 .submit-btn {
     width: 75%;
     padding: .45rem 1.5rem;
@@ -188,11 +184,15 @@ figure {
         height: 13.7rem;
         max-width: 35rem;
         margin: auto;
-        border: 1px solid black;
+    }
+
+    .verification-space {
+        width: 20.5rem;
+        text-align: start;
     }
 
     #email {
-        width: 20.5rem;
+        width: 100%;
         padding: .85rem 1.5rem;
         border-radius: 1.5rem;
         border-width: 1px;
@@ -208,12 +208,15 @@ figure {
         display: flex;
         padding: 0 1.5rem;
         justify-content: space-around;
-        text-align: start;
+
     }
 
     .verification-txt {
         font-size: .6rem;
-        margin: .4rem 0 0 1.2rem;
+        padding: .4rem 0 0 1.5rem;
+        position: relative;
+        left: 0;
+        top: 0;
     }
 
     .submit-btn {
@@ -229,7 +232,6 @@ figure {
 
     .img-container {
         max-width: 36rem;
-        border: 1px solid black;
     }
 
     .sm-container {
@@ -238,7 +240,6 @@ figure {
 
     .copyright {
         font-size: .6rem;
-
     }
 
 }
