@@ -94,6 +94,15 @@ figure {
     margin: .25rem 0 .7rem 0;
 }
 
+.empty-txt {
+    display: none;
+    color: var(--secondary-light-red);
+    font-size: .5rem;
+    font-style: italic;
+    font-weight: 600;
+    margin: .25rem 0 .7rem 0;
+}
+
 .submit-btn {
     width: 75%;
     padding: .45rem 1.5rem;
@@ -214,9 +223,11 @@ figure {
     .verification-txt {
         font-size: .6rem;
         padding: .4rem 0 0 1.5rem;
-        position: relative;
-        left: 0;
-        top: 0;
+    }
+
+    .empty-txt {
+        font-size: .6rem;
+        padding: .4rem 0 0 1.5rem;
     }
 
     .submit-btn {

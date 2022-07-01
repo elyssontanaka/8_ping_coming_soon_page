@@ -5,8 +5,6 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,11 +18,11 @@
 </head>
 
 <body>
-
+  
   <figure>
     <img class="logo" src="./images/logo.svg" alt="Logo name">
   </figure>
-  <div class="info-container">
+  <main class="info-container">
     <h1 class="title">We are launching <strong>soon!</strong></h1>
     <h2 class="sub-title">Subscribe and get notified</h2>
     <div class="input-container">
@@ -32,10 +30,11 @@
         <label for="email"></label>
         <input type="text" id="email" name="email" placeholder="Your email address..." required>
         <p class="verification-txt">Please provide a valid email address</p>
+        <p class="empty-txt">Whoops! It looks like you forgot to add your email</p>
       </form>
       <button class="submit-btn">Notify Me</button>
     </div>
-  </div>
+  </main>
   <figure class="img-container">
     <img class="illustration" src="./images/illustration-dashboard.png" alt="illustration representing a dashboard">
   </figure>

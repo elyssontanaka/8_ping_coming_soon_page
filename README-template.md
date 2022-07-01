@@ -1,6 +1,6 @@
 # Frontend Mentor - Ping coming soon page solution
 
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da).
 
 ## Table of contents
 
@@ -65,6 +65,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
+In this project
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
